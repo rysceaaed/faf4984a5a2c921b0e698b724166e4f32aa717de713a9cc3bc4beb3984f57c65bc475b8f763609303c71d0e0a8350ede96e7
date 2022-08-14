@@ -1,0 +1,1 @@
+if a file gets turned into a .bin file it gets transported to bin
