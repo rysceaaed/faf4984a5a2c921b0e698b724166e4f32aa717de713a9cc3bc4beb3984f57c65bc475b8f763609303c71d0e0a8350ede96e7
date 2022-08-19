@@ -1,0 +1,7 @@
+post ---- user
+
+user ------------------------- data
+
+data ----- user ---------- output
+
+output ---- new post 
