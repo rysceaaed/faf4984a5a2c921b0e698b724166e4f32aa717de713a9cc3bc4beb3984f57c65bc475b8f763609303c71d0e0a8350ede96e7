@@ -1,0 +1,10 @@
+repeat("forever"){
+lab-status.href=[{usb-port}]
+ define({battery-status})
+ output-status()
+"({lab)}"
+}
+@state var servers = status-servers
+if[{servers.isnotworking}]
+try-again({start})
+stop{"if[{servers.isnotworking}]
