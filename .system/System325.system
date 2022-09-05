@@ -1,0 +1,11 @@
+@system-branch check("id-890") after import @import-systemvar {
+vstack-system {
+variable:name("username") ==amount(<@username>)
+}
+@system-code sr-use check-if("variable is avaliable") {
+:1 = router
+:2 = username
+}
+out-var {
+var new = 255.5
+}
