@@ -1,3 +1,6 @@
 sys user upload-1{
 start("main")
 }
+if{.error}[=]{true}^upload-usertry{
+try-again))
+}
